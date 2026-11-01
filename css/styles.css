@@ -144,6 +144,54 @@ footer a {
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 550px), print {
 
+/* Tablet Viewport: Style rule for map */
+.map {
+   width: 500px
+   height: 450px
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 769px) {
+   
+   /* Desktop Viewport: Style rule for header */
+      header {
+      padding: 2%
+   }
+
+/* Media Query for Print */
+@media print {
+
+   body {
+      background-color: #fff;
+      color: #000;
+   }
+}
+
+/* Desktop Viewport: Style rules for nav area */
+nav li {
+   padding: 0.5em 1.5em;
+}
+
+nav li:hover {
+      color:#373684;
+      background-color: #e5e9fc
+   }
+
+/* Desktop Viewport: Style for main content */
+#info ul {
+   margin-left: 5%;
+}
+
+main h3 {
+   font-size: 1.5em;
+}
+
+#piano, #guitar, #violin {
+   width: 29%;
+   float: left;
+   margin: 0 2;
+}
+   
 /* Tablet Viewport: Style rules for nav area */
 nav li{
    border-top: none;
